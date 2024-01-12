@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+    overflow: hidden;
+    background-image: url('landscape.jpg'); /* Add your landscape image */
+    background-size: cover;
+    padding: 15px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Hover background color with transparency */
+    color: black;
+}
+
+/* Main Content */
+.content {
+    padding: 20px;
+}
+
+/* Add more styles as needed */
